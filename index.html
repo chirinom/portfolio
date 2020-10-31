@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-  <html>    
+  <html lang="en">    
     <head>
       <title>Miguel's Portfolio</title>
       <meta name="description" content="Web development proyects by Miguel Chirino">
@@ -11,14 +11,14 @@
 
       <div class="container navbar">
         <header>
-          <div class="logo">
-            <h1>Miguel</h1>
+          <div class="lgo">
+            <h1>MiguelCh.</h1>
           </div>
           <nav>
             <ul>
-              <li><a href="#about"></a>About me</li>
-              <li><a href="#Skills"></a>Skills</li>
-              <li><a href="#work"></a>Work</li>
+              <a href="#about">About me</a>
+              <a href="#skills">Skills</a>
+              <a href="#work">Work</a>
             </ul>
           </nav>
         </header>
@@ -40,6 +40,7 @@
             <span class="m-left name">u</u></span>
             <span class="m-left name">e</span>
             <span class="m-left name">l</span>
+            <span class="m-left">,</span>
             <br>
             <span>F</span>
             <span class="m-left">u</span>
@@ -60,21 +61,28 @@
             <span class="m-left">e</span>
             <span class="m-left">r</span>
           </h1>
-          <p> JavaScript / HTML / CSS /Ruby on Rails</p>
+          <p> JavaScript / HTML / CSS / Ruby on Rails</p>
           <a href="#contact">Contact me</a>
         </div>
         <div class="profile-image">
-          <img src="img/example1" alt="">
+          <img src="img/miguel.jpg" alt="">
         </div>
       </div>
 
       <div class="container about" id="about">
         <h1>About</h1>
         <div class="about-me-info">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet atque, saepe error repellat 
-          odio fugit et harum quaerat illo totam hic qui maiores. Ex aspernatur exercitationem laborum 
-          reprehenderit corporis inventore, beatae tenetur rerum rem neque omnis dolores blanditiis quo
-          voluptatem cum vero placeat commodi magni velit. Assumenda cum quas voluptatibus.</p>
+          <p>I have 7 years of professional experience in Pricing and Revenue Management of both Airline and
+          Hospitality industries. Having worked with database management systems I started to get more intrested into
+          programming and decided to become a Fullstack Web Developer with Le Wagon Bootcamp.<br>
+
+          <br>I am very passionate about helping others with their busineses and ideas by creating modern, simple and friendly 
+          user interfaces. <br>
+
+          <br>On my free time I like doing outdoor and water activities such as hiking, surfing and diving and take a lot of
+          pictures while doing all of them. I enjoy travelling to new places and countries, get to know different cultures
+          and meeting kind and open minded people.
+          </p>
         </div>
       </div>
 
@@ -83,7 +91,6 @@
         <p class="skills-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente vel 
         libero dolore praesentium perferendis a consequatur sunt neque, velit exercitationem vero facere
         placeat maxime quaerat, dicta alias excepturi nemo aperiam.</p>
-
         <div class="html">
           <div class="tag-html">
             <p>HTML</p>
@@ -92,28 +99,25 @@
             <div class="bar-html"></div>
           </div>
         </div>
-
         <div class="html">
           <div class="tag-javascript">
-            <p>HTML</p>
+            <p>JavaScript</p>
           </div>
           <div class="progressbar">
             <div class="bar-javascript"></div>
           </div>
         </div>
-
         <div class="html">
           <div class="tag-css">
-            <p>HTML</p>
+            <p>CSS</p>
           </div>
           <div class="progressbar">
             <div class="bar-css"></div>
           </div>
         </div>
-
         <div class="html">
           <div class="tag-ror">
-            <p>HTML</p>
+            <p>Ruby on Rails</p>
           </div>
           <div class="progressbar">
             <div class="bar-ror"></div>
@@ -124,24 +128,25 @@
       <div class="container work" id="work">
         <h1>Work</h1>
         <div class="work-category">
-          <button id="designing" class="active">Web Design</button>
-          <button id="animation">Web animation</button>
-          <button id="project">Projects</button>
+          <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Design</button>
+          <button id="animation" onclick="showRequiredCategory(this)">Web animation</button>
+          <button id="project" onclick="showRequiredCategory(this)">Projects</button>
         </div>
         <div class="category-designing showCategory">
-          <a href="" src="img/example1.png"></a>
-          <a href="" src="img/example1.png"></a>
-          <a href="" src="img/example1.png"></a>
+          <a href=""><img src="img/famouslab.png" alt=""></a>
+          <a href=""><img src="img/famouslab.png" alt=""></a>
+          <a href=""><img src="img/famouslab.png" alt=""></a>
+          <a href=""><img src="img/famouslab.png" alt=""></a>
         </div>
-        <div class="category-designing hideCategory">
-          <a href="" src="img/example1.png"></a>
-          <a href="" src="img/example1.png"></a>
-          <a href="" src="img/example1.png"></a>
+        <div class="category-animation hideCategory">
+          <a href=""><img src="img/famouslab.png" alt=""></a>
+          <a href=""><img src="img/organigo.png" alt=""></a>
+          <a href=""><img src="img/mrcocktail.png" alt=""></a>
         </div>
-        <div class="category-designing hideCategory">
-          <a href="" src="img/example1.png"></a>
-          <a href="" src="img/example1.png"></a>
-          <a href="" src="img/example1.png"></a>
+        <div class="category-project hideCategory">
+          <a href=""><img src="img/famouslab.png" alt=""></a>
+          <a href=""><img src="img/organigo.png" alt=""></a>
+          <a href=""><img src="img/mrcocktail.png" alt=""></a>
         </div>
       </div>
 
@@ -150,17 +155,24 @@
         <form>
           <input type="text" name="name" placeholder="Full name">
           <input type="email" placeholder="Email">
-          <input type="email" placeholder="name@mail.com" disabled>
           <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
           <input type="Submit">
         </form>
       </div>
 
+      <footer class=>
+        <hr>
+        <p>2020 Copyright, All Rights Reserved</p>
+      </footer>
 
 
 
-
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js" integrity="sha512-Ey+nIg+Ue8gUAaCNjR1KHR8nwDjWn9QXoQbynR/X+V66s6u1oqynnuRQ8zSgg5f5gBNb2Bzsu1pItCi3sPkbfA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js" integrity="sha512-A98SmLRZISk4eIxQBeCm8k0jAcwN3A3lBx4hr7baoMpV1VpxcxlZIhi5fJIZN50sQ5RlCzx8yV+Voy2cR6x0aA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js" integrity="sha512-/8phkpsAzxsbuX18zNkQ2gCq4Q5JsWoPo1jHLDeZorPUHRtx9YJxpdk+os05oDhPJVCNzA2/NMl4rmJyQ+6Fvg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js" integrity="sha512-I0VFyPo7hdM7YrEbQ0pvX4bX2904k0+B19u/xBrPrQoMprfcSnIDfGFD8kP52GbAhwtDjkEVhXlQvj8+vkJyew==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js" integrity="sha512-ht40uOoiTef4nKq0THVzjIGh3VS108J577LVVgNXnQLXza3doXjoM3owin2vd+Hm6w88k12RIrePIVY2WNzz6Q==" crossorigin="anonymous"></script>
       <script src="js/script.js"></script>
     </body>
   </html>

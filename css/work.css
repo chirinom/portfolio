@@ -1,0 +1,41 @@
+.work-category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.work {
+  margin-top: 100px
+}
+
+div[class^='category-'] {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 20px;
+}
+
+.work a {
+  justify-self: center;
+  position: relative;
+  display: inline-block
+}
+
+.work-category .active {
+  background-color: #ed5565;
+}
+
+
+.work a img {
+  width: 350px;
+  justify-self: center;
+}
+
+div.hideCategory {
+  display: none;
+}
+
+.showCategory {
+  display: block;
+}

@@ -1,0 +1,52 @@
+.back-and-front-skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills h1,
+.contact h1 {
+  text-align:  right;
+  font-size: 10rem;
+  opacity: .1;
+}
+
+.html {
+  margin-bottom: 15px;
+}
+
+div[class^='tag-'] {
+  width: 120px;
+  height: 22px;
+}
+
+div[class^='tag-'] p {
+  color: #bebebe;
+  text-align: left;
+  padding-left: 2px;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.progressbar {
+  position: relative;
+  width: 350px;
+  height: 20px;
+  border: 1px solid #488ecf;
+  border-radius: 20px;
+  margin-top: 3px
+}
+
+div[class^='bar-'] {
+  position: absolute;
+  background-color: #488ecf;
+  height: 14px;
+  border-radius: 20px;
+  margin: 2.0px
+}
+
+.bar-html,
+.bar-javascript,
+.bar-css,
+.bar-ror {
+  width: calc(0 - 6px);
+}

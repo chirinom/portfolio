@@ -1,5 +1,30 @@
-span.name {
-    color: #ed5565;
+
+.main-info-section {
+  height: calc(75vh - 81.6px);
+}
+
+.text {
+  margin-top: 180px;
+}
+
+.text h1 {
+  color: #fff;
+  font-size: 3.3rem;
+  cursor: context-menu;
+}
+
+.profile-image {
+  margin-top: 75px;
+}
+
+.profile-image img {
+  border-radius: 40% 2%;
+  opacity: .5;
+}
+
+.profile-image img:hover {
+  border-radius: 40% 2%;
+  opacity: .9;
 }
 
 .text span {
@@ -14,7 +39,7 @@ span:hover {
   animation-name: rubberBand;
   color: #488ecf;
 }
-  
+
 @keyframes rubberBand {
   from {
     transform: scale3d(1, 1, 1);
@@ -44,8 +69,30 @@ span:hover {
     transform: scale3d(1, 1, 1);
   }
 }
-
+  
 .rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
 }
+
+span.name {
+  color: #ed5565;
+}
+
+span.m-left {
+  margin-left:  -10px;
+}
+
+.text p {
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  font-size: .8rem;
+}
+
+
+.profile-image img {
+  width: 450px;
+  margin-top: 50px;
+}
+
+  

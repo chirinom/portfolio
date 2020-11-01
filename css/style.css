@@ -70,6 +70,10 @@ header a,
   color: #707070;
 }
 
+.lgo h1 {
+  letter-spacing: -2px;
+}
+
 a {
   text-decoration: none;
   font-size: .9rem;
@@ -99,12 +103,12 @@ a {
 }
 
 .profile-image img {
-  border-radius: 40%;
+  border-radius: 40% 2%;
   opacity: .5;
 }
 
 .profile-image img:hover {
-  border-radius: 40%;
+  border-radius: 40% 2%;
   opacity: .9;
 }
 
@@ -214,6 +218,11 @@ span.m-left {
   margin-top: 100px
 }
 
+.work {
+  margin-top: 100px
+}
+
+
 .about h1,
 .work h1 {
   font-size: 10rem;
@@ -225,7 +234,7 @@ span.m-left {
   max-width: 900px;
   background-color: #252627;
   box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
-  padding: 50px;
+  padding: 45px;
   position: relative;
   top: -70px;
   left: 50%;
@@ -235,22 +244,18 @@ span.m-left {
 }
 
 .about-me-info p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #bebebe;
 }
 
-.about-me-info p:nth-child(2),
+/* .about-me-info p:nth-child(2),
 .about-me-info p:last-child {
   margin-top: 30px;
-}
+} */
 
 .back-and-front-skills {
   display: flex;
   justify-content: space-between;
-}
-
-.skills {
-  height: 100vh;
 }
 
 .skills h1,
@@ -260,7 +265,7 @@ span.m-left {
   opacity: .1;
 }
 
-.skills-info {
+/* .skills-info {
   font-size: 1.1rem;
   color: #bebebe;
   max-width: 800px;
@@ -269,37 +274,36 @@ span.m-left {
   right: 50%;
   transform: translateX(-50%);
   text-align: center;
-  margin-bottom: 50px;
-}
+} */
 
 /* --------Skills-------- */
 
 .html {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 40px;
+  justify-content: space-around; */
+  margin-bottom: 15px;
 }
 
 div[class^='tag-'] {
-  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
-  width: 100px;
-  height: 25px;
-  background-color: #ed5565;
-  /* margin-right: 30px; */
+  /* clip-path: polygon(75% 0%, 85% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%); */
+  width: 120px;
+  height: 22px;
+  /* background-color: #ed5565; */
 }
 
 div[class^='tag-'] p {
-  color: #fff;
+  color: #bebebe;
+  /* font-weight: bold; */
   text-align: left;
-  padding-left: 3px;
-  font-size: 13px;
+  padding-left: 2px;
+  font-size: 14px;
   padding-top: 5px;
 }
 
 .progressbar {
   position: relative;
-  width: 300px;
+  width: 350px;
   height: 20px;
   border: 1px solid #488ecf;
   border-radius: 20px;
@@ -377,7 +381,7 @@ div.hideCategory {
 }
 
 .contact {
-  margin-top: 50px
+  margin-top: 100px
 }
 
 form input,

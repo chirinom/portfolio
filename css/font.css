@@ -1,0 +1,9 @@
+header h1,
+header a,
+.text p,
+.about h1,
+.skills h1,
+.work h1,
+.contact h1 {
+  color: #707070;
+}

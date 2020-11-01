@@ -1,0 +1,36 @@
+nav ul,
+.main-info-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+  margin-right: 15px
+}
+
+nav a:hover {
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+  margin-right: 15px;
+  color: #fff
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.navbar {
+  background-color: #181818;
+}

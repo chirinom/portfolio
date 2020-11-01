@@ -4,7 +4,6 @@
   justify-content: space-around;
 }
 
-
 .work {
   margin-top: 100px
 }
@@ -25,7 +24,6 @@ div[class^='category-'] {
 .work-category .active {
   background-color: #ed5565;
 }
-
 
 .work a img {
   width: 350px;

@@ -15,22 +15,22 @@ const saBar = document.querySelector('.bar-sa')
 
 let t1 = new TimelineLite();
 
-t1.fromTo(htmlBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(90% - 6px)`, ease: Power4.easeOut})
-  .fromTo(cssBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(85% - 6px)`, ease: Power4.easeOut})
-  .fromTo(jsBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(70% - 6px)`, ease: Power4.easeOut})
-  .fromTo(bsBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(95% - 6px)`, ease: Power4.easeOut})
-  .fromTo(rubyBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(85% - 6px)`, ease: Power4.easeOut})
-  .fromTo(rorBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(85% - 6px)`, ease: Power4.easeOut})
-  .fromTo(oopBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(75% - 6px)`, ease: Power4.easeOut})
-  .fromTo(mvcBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(90% - 6px)`, ease: Power4.easeOut})
-  .fromTo(ggBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(85% - 6px)`, ease: Power4.easeOut})
-  .fromTo(figmaBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(75% - 6px)`, ease: Power4.easeOut})
-  .fromTo(herokuBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(90% - 6px)`, ease: Power4.easeOut})
-  .fromTo(saBar, .35, {width: `calc(0% - 6px)`}, {width: `calc(80% - 6px)`, ease: Power4.easeOut})
+t1.fromTo(htmlBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(90% - 6px)`, ease: Power4.easeOut})
+  .fromTo(cssBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(85% - 6px)`, ease: Power4.easeOut})
+  .fromTo(jsBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(70% - 6px)`, ease: Power4.easeOut})
+  .fromTo(bsBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(95% - 6px)`, ease: Power4.easeOut})
+  .fromTo(rubyBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(85% - 6px)`, ease: Power4.easeOut})
+  .fromTo(rorBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(85% - 6px)`, ease: Power4.easeOut})
+  .fromTo(oopBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(75% - 6px)`, ease: Power4.easeOut})
+  .fromTo(mvcBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(90% - 6px)`, ease: Power4.easeOut})
+  .fromTo(ggBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(85% - 6px)`, ease: Power4.easeOut})
+  .fromTo(figmaBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(75% - 6px)`, ease: Power4.easeOut})
+  .fromTo(herokuBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(90% - 6px)`, ease: Power4.easeOut})
+  .fromTo(saBar, .15, {width: `calc(0% - 6px)`}, {width: `calc(80% - 6px)`, ease: Power4.easeOut})
 
 const contoller = new ScrollMagic.Controller()
 const scene = new ScrollMagic.Scene({
-  triggerElement: '.skills',
+  triggerElement: '.back-and-front-skills',
   triggerHook: 1
 })
 .setTween(t1)

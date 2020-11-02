@@ -66,5 +66,7 @@ button.active {
 }
 
 @media (max-width: 480px){
-
+  .text a {
+    display: none;
+  }
 }

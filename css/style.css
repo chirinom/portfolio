@@ -43,9 +43,9 @@ html {
 }
 
 @media (max-width: 1024px){
-  /* .container {
+  .container {
     padding: 0px 50px;
-  } */
+  }
 }
 
 @media (max-width: 768px){

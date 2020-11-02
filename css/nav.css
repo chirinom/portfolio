@@ -34,7 +34,7 @@ header {
   background-color: #181818;
 }
 
-.lgo h1 {
+.logo h1 {
   letter-spacing: -2px;
 }
 
@@ -46,4 +46,26 @@ a {
   top: 50%;
   bottom: 50%;
   transform: translateY(-50%);
+}
+
+
+@media (max-width: 1200px){
+}
+
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 480px){
+  .logo h1 {
+    font-size:25px
+  }
+
+  nav a {
+    font-size: 0.8rem;
+  }
 }

@@ -4,7 +4,6 @@
 @import "font.css";
 @import "banner.css";
 @import "nav.css";
-@import "rubberband.css";
 @import "skills.css";
 @import "work.css";
 @import "form.css";
@@ -27,4 +26,33 @@ html {
 
 .container {
   padding: 0px 300px;
+}
+
+/* ----------------media query------------ */
+
+@media (max-width: 1700px){
+  .container {
+    padding: 0px 150px;
+  }
+}
+
+@media (max-width: 1400px) {
+  /* .container {
+    padding: 0px 70px;
+  } */
+}
+
+@media (max-width: 1024px){
+  /* .container {
+    padding: 0px 50px;
+  } */
+}
+
+@media (max-width: 768px){
+  .container {
+    padding: 0px 40px;
+  }
+}
+
+@media (max-width: 480px){
 }

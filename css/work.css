@@ -37,3 +37,21 @@ div.hideCategory {
 .showCategory {
   display: block;
 }
+
+@media (max-width: 1200px){
+}
+
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 768px){
+  .work a img {
+    width: 100%;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 480px){
+
+}

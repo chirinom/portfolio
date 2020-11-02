@@ -1,6 +1,12 @@
-
+/* 
 .main-info-section {
   height: calc(75vh - 81.6px);
+} */
+
+.main-info-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .text {
@@ -95,4 +101,30 @@ span.m-left {
   margin-top: 50px;
 }
 
-  
+/* -----------media query---------- */
+
+@media (max-width: 1400px){
+  .main-info-section {
+    align-items: center;
+    display: block;
+  }
+
+  .text {
+    margin-top: 80px;
+  }
+
+}
+
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 768px){
+  .profile-image img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px){
+
+}

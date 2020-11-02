@@ -1,5 +1,4 @@
-nav ul,
-.main-info-section {
+nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

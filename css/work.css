@@ -9,7 +9,6 @@
 }
 
 .work h4 {
-  /* letter-spacing: 1px; */
   word-spacing: 5px;
   font-size: .8rem;
   text-align: center;
@@ -18,7 +17,6 @@
 }
 
 .work p {
-  /* letter-spacing: 1px; */
   word-spacing: 5px;
   font-size: .6rem;
   text-align: center;
@@ -63,6 +61,8 @@ div.hideCategory {
 .showCategory {
   display: block;
 }
+
+/* -----------media query---------- */
 
 @media (max-width: 1200px){
 }

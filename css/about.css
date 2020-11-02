@@ -3,7 +3,6 @@
   margin-top: 100px
 }
 
-
 .about-me-info {
   max-width: 900px;
   background-color: #252627;
@@ -23,25 +22,18 @@
   color: #bebebe;
 }
 
+/* -----------media query---------- */
+
 @media (max-width: 1640px){
-  /* .about {
-    margin-top: 150px;
-  } */
+
 }
 
 @media (max-width: 1400px){
-  /* .about {
-    margin-top: 100px;
-  } */
-
 
 }
 
 @media (max-width: 1200px){
-  /* .about {
-    margin-top: 250px;
-    height: 150vh;
-  } */
+
 }
 
 @media (max-width: 1024px){

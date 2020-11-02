@@ -92,20 +92,11 @@ span.m-left {
 
 .profile-image img {
   width: 450px;
-  /* margin-top: 50px; */
 }
 
 /* -----------media query---------- */
 
 @media (max-width: 1400px){
-  /* .main-info-section {
-    align-items: center;
-    display: block;
-  } */
-/* 
-  .text {
-    margin-top: 75px;
-  } */
 
 }
 

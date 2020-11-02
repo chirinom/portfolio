@@ -58,11 +58,11 @@ h3 {
 @media (max-width: 480px){
   .skills h1,
   .contact h1 {
-    font-size: 3rem;
+    font-size: 5rem;
   }
   
   .about h1,
   .work h1 {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }

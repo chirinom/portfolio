@@ -2,9 +2,12 @@
   padding: 12px 25px;
   background-color: none;
   border: 3px solid #ed5565;
+  border-radius: 50px;
+  width: 200px;
   color: #ed5565;
   font-size: .8rem;
   letter-spacing: 2px;
+  text-align: center;
   position: relative;
   top: 80px;
   overflow: hidden;
@@ -34,7 +37,7 @@
 
 .work-category button {
   text-transform: capitalize;
-  border: 1px solid #ed5565;
+  border: 3px solid #ed5565;
   padding: 15px 30px;
   border-radius: 50px;
   color: #ed5565;
@@ -44,6 +47,38 @@
   outline: none;
   cursor: pointer;
 }
+
+form input:last-child {
+  padding: 12px 25px;
+  background-color: none;
+  border: 3px solid #ed5565;
+  border-radius: 50px;
+  width: 200px;
+  color: #ed5565;
+  font-size: .8rem;
+  letter-spacing: 2px;
+  text-align: center;
+  overflow: hidden;
+  transition: .5s;
+  display: inline-block;
+}
+
+form input:last-child:hover {
+  color: #fff;
+}
+
+form input:last-child::before {
+  /* content: ''; */
+  background-color: #ed5565;
+  /* position: absolute;
+  left: 0;
+  top: 0; */
+  /* width: 50px; */
+  /* height: 0%;
+  z-index: -1;
+  transition: .5s; */
+}
+
 
 button.active {
   color: #fff;

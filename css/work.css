@@ -8,12 +8,21 @@
   margin-top: 100px
 }
 
+.work h4 {
+  /* letter-spacing: 1px; */
+  word-spacing: 5px;
+  font-size: .8rem;
+  text-align: center;
+  color: #bebebe;
+  margin-top: 10px
+}
+
 .work p {
   /* letter-spacing: 1px; */
   word-spacing: 5px;
   font-size: .6rem;
   text-align: center;
-  color: rgba(255, 255, 255, 0.733);
+  color: #bebebe;
   margin-top: 4px;
 }
 
@@ -35,7 +44,7 @@ div[class^='category-'] {
 }
 
 .work a img {
-  margin-top: 20px;
+  margin-top: 7px;
   width: 400px;
   justify-self: center;
   opacity: .4;

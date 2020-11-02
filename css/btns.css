@@ -71,14 +71,15 @@ form input:last-child::before {
   background-color: #ed5565;
 }
 
-/* -----------media query---------- */
 
 button.active {
   color: #fff;
 }
 
+/* -----------media query---------- */
+
 @media (max-width: 1200px){
-  
+
 }
 
 @media (max-width: 1024px){

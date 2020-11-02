@@ -52,7 +52,10 @@ h3 {
 }
 
 @media (max-width: 768px){
-
+  h3 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 480px){

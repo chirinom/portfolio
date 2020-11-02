@@ -53,7 +53,9 @@ div[class^='bar-'] {
 }
 
 @media (max-width: 768px){
-
+  div[class^='skills-'] {
+    grid-gap: 0px;
+  }
 }
 
 @media (max-width: 480px){
